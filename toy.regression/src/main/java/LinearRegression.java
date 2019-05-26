@@ -1,3 +1,5 @@
+package main.java;
+
 import Jama.Matrix;
 
 /**
@@ -13,8 +15,8 @@ public class LinearRegression extends Model {
      * @param y     target training data
      */
     @Override
-    public void fit(Matrix x, Matrix y) {
-        System.out.println("Not yet implemented.");
+    public void fit( Matrix x, Matrix y )  {
+        System.out.println( "Not yet implemented." );
     }
 
     /**
@@ -24,9 +26,9 @@ public class LinearRegression extends Model {
      * @return
      */
     @Override
-    public Matrix predict(Matrix x) {
-        System.out.println("Not yet implemented.");
-        return new Matrix(1, 1);
+    public Matrix predict( Matrix x ) {
+        System.out.println( "Not yet implemented." );
+        return new Matrix( 1, 1 );
     }
 
     /**
@@ -37,8 +39,8 @@ public class LinearRegression extends Model {
      * @return
      */
     @Override
-    public double score(Matrix x, Matrix y) {
-        System.out.println("Not yet implemented.");
+    public double score( Matrix x, Matrix y ) {
+        System.out.println( "Not yet implemented." );
         return 0;
     }
 }
